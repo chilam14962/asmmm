@@ -1,0 +1,811 @@
+.container{
+    margin:  0 auto;
+    width: 1180px;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.thanhhead{
+    width: 1180px;
+    height: 80px;
+    margin-top: 0px;
+    background-color: black;
+    position:fixed;
+    z-index: 100;
+}
+.logoAP{
+    width: 25%;
+}
+.logoAP img{
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.thanhtimkiem{
+    background-color: white;
+    width: 25%;
+    height: 25px;
+    left: 300px;
+    top: -45px;
+    position: relative;
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid gray;
+}
+.chutrongthanhtimkiem{
+    line-height: 25px;
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.diachishop{
+    width: 24%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.danhnhap a{
+    color: #0bdb0b;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+.danhky a{
+    color: #0bdb0b;
+    position: absolute;
+    left: 780px;
+    top: 20px;
+}
+.buildpc a{
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+}
+.giohang a{
+    color: white;
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+}
+.sdtshop a{
+    color: white;
+    position: absolute;
+    left: 635px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.lienhe a{
+    color: white;
+    position: absolute;
+    left: 810px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.congnghe a{
+    color: white;
+    position: absolute;
+    left: 920px;
+    bottom: 10px;
+    font-size: 15px;
+}.hangmoive a{
+    color: white;
+    position: absolute;
+    left: 1030px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.mauxanh a:hover{
+    color:#0bdb0b ;
+}
+.thanhmenu{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top: 80px;
+    z-index: 30;
+}
+.danhmuc{
+    position: relative;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thanhmenu a{
+    color: #2e2d2d;
+}
+.tragop a{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.baohanh a{
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+.giaohang a{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+.khuyenmai a{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+.cskhachhang a{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+.mauxanhlot a:hover{
+    color:green ;
+}
+.circle{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    padding-left: 8px;
+    padding-top: 7px;
+}
+.ti-money{
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+.ti-headphone{
+    position:absolute;
+    top: 8px;
+    left: 8px;
+}
+.ti-truck{
+    position:absolute;
+    top: 6px;
+    left: 8px;
+}
+.fa-bullhorn{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.fa-tools{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.thanhmenu>.danhmuc:hover .root{
+    width: 100%;
+    display: iSnline-block;
+    position: relative;
+    display: block;
+}
+.thanhmenu>.danhmuc:hover .themeleft{
+    width: 100%;
+    display: block;
+}
+.megaMenu{
+    width: 30%;
+    position: absolute;
+    margin-right: 10px;
+    text-align: left;
+    background-color: white;
+    z-index: 20;
+}
+ul{
+    list-style: none;
+}
+.root{
+    display:none ;
+
+}
+.ti-angle-right{
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+.megaMenu a{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -15px;
+}
+ul.menuMega > li{
+    list-style: none;
+    float: right;
+    line-height: 30px;
+}
+.megaMenu a:hover{
+    color: green;
+}
+ul.menuChild{
+    width: 890px;
+    min-height: 38px;
+    background-color:white;
+    display: none;
+    position: absolute;
+    left: 295px;
+    z-index: 1;
+    list-style: none;
+    top: 5px;
+}
+ul.menuChild li {
+    list-style: none;
+}
+ul.menuChild li a{
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    list-style: none;
+}
+ul.root > li:hover ul.menuChild{
+    display:block;
+    visibility: visible;
+    list-style: none;
+}
+.themeleft{
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 43px;
+    left: 10px;
+    display: none;
+    z-index: 20;
+}
+.circle1{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.thanhmenu a{
+    color: #2e2d2d;
+}
+.tragop a{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.baohanh a{
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+.giaohang a{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+.khuyenmai a{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+.cskhachhang a{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+.mauxanhlot a:hover{
+    color:green ;
+}
+.circle{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    padding-left: 8px;
+    padding-top: 7px;
+}
+.ti-money{
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+.ti-headphone{
+    position:absolute;
+    top: 8px;
+    left: 8px;
+}
+.ti-truck{
+    position:absolute;
+    top: 6px;
+    left: 8px;
+}
+.fa-bullhorn{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.fa-tools{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.sidetotal{
+    margin-top: 10px;
+    width: 100%;
+    height: 535px;
+    position: relative;
+}
+.boxdangnhap{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    padding:0 30px 0 30px ;
+}
+.header-dangnhap{
+    width: 100%;
+    height: 30%;
+}
+.header-dangnhap h2{
+    text-align: center;
+    padding-top: 40px;
+    position:relative;
+    z-index: 10;
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+.form-group{
+    width: 100%;
+    height: 100%;
+}
+.form-group>label{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.form-group a{
+    font-size: 14px;
+    text-decoration: none;
+    color: grey;
+}
+.form-group a:hover{
+    color: lawngreen;
+}
+.form-control{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    margin-left: 53px;
+    font-size: 16px ;
+    line-height: 38px;
+    margin-top: 6px;
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    outline: none;
+    border: 1px solid grey;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.ti-email{
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    position: relative;
+    font-size:20px;
+    top: 40px;
+    left: -40px;
+    padding: 10px;
+}
+.ti-lock{
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    position: relative;
+    font-size:20px;
+    top: 40px;
+    left: -172px;
+    padding: 10px;
+}
+.form-button{
+    width: 100%;
+    position: relative;
+}
+.form-button button{
+    width: 45%;
+    height: 50%;
+    background-color: green;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    left: 28%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding:15px ;
+}
+.form-text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.form-text a{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: darkgrey;
+    text-decoration: underline;
+}
+.form-text a:hover{
+    color:lawngreen;
+}
+.item-trend{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.item-trend h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding-left: 5px;
+}
+.item-trend .box-company{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 18px;
+    min-width: 12%;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: grey;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.item2{
+    width: 100%;
+    position: relative;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.boxsp2 {
+    position:relative;
+    width: calc(20% - 10px);
+    height: 336px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+}
+.boxsp2 .anhsp{
+    width: 100%;
+    height: 195px;
+    overflow: hidden;
+}
+.boxsp2 .anhsp img{
+    width: 90%;
+    padding-left: 20px;
+}
+.boxsp2 .tensp{
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+.boxsp2 .tensp a{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: #2e2d2d;
+    font-weight: 200;
+    font-size: 16px;
+}
+.boxsp2 .tensp a:hover{
+    color: green;
+}
+.boxsp2 .giasp {
+    position: relative;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxsp2 .giasp strong{
+    font-weight: bold;
+}
+.boxsp2 .giasp del{
+    color:#2e2d2d ;
+}
+.boxsp2 .danhgia{
+    position: relative;
+    color:#2e2d2d ;
+    top: -37px;
+}
+.boxsp2 .ratesaosp a img{
+    position: relative;
+    width: 80px;
+    top: -10px;
+}
+.boxsp2 .khunggiamgia{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:#0bdb0b ;
+    position: relative;
+    bottom: 330px;
+    left: 170px;
+}
+.boxsp2 .khunggiamgia p{
+    position: absolute;
+    top: -7px;
+    left: 4px;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company-logo{
+    width: 100%;
+    height: 150px;
+}
+.company-logo h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding-left: 5px;
+}
+.logo-comp{
+    width: calc((100% / 6 ) - 20px);
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 17px;
+}
+.company-logo img{
+    width: 100%;
+}
+.item{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.boxsp{
+    position:relative;
+    width: calc(20% - 10px);
+    height: 336px;
+
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+}
+.anhsp{
+    width: 100%;
+    overflow: hidden;
+}
+.anhsp img{
+    width: 90%;
+    padding-left: 20px;
+}
+.tensp{
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+.tensp a{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: #2e2d2d;
+    font-weight: 200;
+    font-size: 16px;
+}
+.tensp a:hover{
+    color: green;
+}
+.giasp {
+    position: relative;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.giasp strong{
+    font-weight: bold;
+}
+.giasp del{
+    color:#2e2d2d ;
+}
+.danhgia{
+    position: relative;
+    color:#2e2d2d ;
+    top: -37px;
+}
+.ratesaosp a img{
+    position: relative;
+    width: 80px;
+    top: -10px;
+}
+.khunggiamgia{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:#0bdb0b ;
+    position: relative;
+    bottom: 330px;
+    left: 170px;
+}
+.khunggiamgia p{
+    position: absolute;
+    top: -7px;
+    left: 4px;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.khungsandeal{
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+}
+.chusandeal{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chuxemtatca a{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 14px;
+}
+.icofont-flash{
+    font-size:55px;
+    color: yellow;
+    position: absolute;
+    left: 5px;
+}
+
+
+
+
+.thanhfooter{
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif !important; 
+
+}
+.thanhfooter .boxleft{
+    width: 33.33%;
+    margin-right: 5px;
+    float: left;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: #f9f9f9;
+    font-size: 13px;
+}
+.thanhfooter .boxcenter{
+    width: 33.33%;
+    position: absolute;
+    left:393px ;
+    height: 400px;
+    color: #f9f9f9;
+    padding-left : 10px; ;
+}
+.thanhfooter .boxright1{
+    width: 33.4%;
+    position: absolute;
+    float: left;
+    left:786px;
+    padding-left: 20px;
+}
+.boxleft img{
+    width: 70%;
+}
+.truso{
+    font-size: 11px;
+}
+.apshop{
+    font-weight: 600;
+    font-size: 14px;
+}
+.thanhfooter a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #f9f9f9;
+    font-weight: 300;
+}
+.time{
+    color: #0bdb0b;
+    font-size: 12px;
+    font-weight: 200;
+}
+.boxleft h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.boxcenter h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+.chungnhan1 img{
+    width: 40%;
+}
+.chungnhan2 img{
+    width: 45%;
+    position: absolute;
+    left: 180px;
+    bottom: 32px;
+}
+.form-email{
+    margin-top: 20px;
+    width: 280px;
+    height: 35px;
+    outline: none;
+}
+.button-gui{
+    background-color: #01ff01; 
+    outline: none;
+    width: 50px;
+    height: 35px;
+    position: relative;
+    left: -5px;
+    border: 1px solid gray;
+}
+.boxright1 h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+.map img{
+    width: 80%;
+}
+.copyright{
+    color: #838383;
+    position: relative;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    text-align: center;
+    top: -40px;
+}
+

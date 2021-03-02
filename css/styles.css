@@ -1,0 +1,742 @@
+.container{
+    margin:  0 auto;
+    width: 1180px;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+article{
+    width: 100%;
+    min-width: 1000px;
+    position: relative;
+}
+.thanhhead{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: relative;
+}
+.logoAP img{
+    width: 250px;
+    position: absolute;
+    left: 20px;
+    top: 20px; 
+}
+.thanhtimkiem{
+    background-color: white;
+    width: 280px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid gray;
+}
+.chutrongthanhtimkiem{
+    line-height: 25px;
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.diachishop{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+}
+a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.danhnhap a{
+    color: #0bdb0b;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+.danhky a{
+    color: #0bdb0b;
+    position: absolute;
+    left: 780px;
+    top: 20px;
+}
+.buildpc a{
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+}
+.giohang a{
+    color: white;
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+}
+.sdtshop a{
+    color: white;
+    position: absolute;
+    left: 635px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.lienhe a{
+    color: white;
+    position: absolute;
+    left: 810px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.congnghe a{
+    color: white;
+    position: absolute;
+    left: 920px;
+    bottom: 10px;
+    font-size: 15px;
+}.hangmoive a{
+    color: white;
+    position: absolute;
+    left: 1030px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.mauxanh a:hover{
+    color:#0bdb0b ;
+}
+.thanhmenu{
+    width: 100%;
+    position: relative;
+    height: 40px;
+}
+.danhmuc{
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thanhmenu a{
+    color: #2e2d2d;
+}
+.tragop a{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.baohanh a{
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+.giaohang a{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+.khuyenmai a{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+.cskhachhang a{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+.mauxanhlot a:hover{
+    color:green ;
+}
+.circle{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    padding-left: 8px;
+    padding-top: 7px;
+}
+.ti-money{
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+.ti-headphone{
+    position:absolute;
+    top: 8px;
+    left: 8px;
+}
+.ti-truck{
+    position:absolute;
+    top: 6px;
+    left: 8px;
+}
+.fa-bullhorn{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.fa-tools{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.sidetotal{
+    margin-top: 10px;
+    width: 100%;
+    height: 535px;
+    position: relative;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    position: relative;
+    float: right;
+}
+.right img{
+    width: 100%;
+}
+.boxdangnhap{
+    width: 50%;
+    height: 60%;
+    background-color: red;
+    /* position: relative; */
+    top:50%;
+    left: 50%;
+    
+
+}
+.megaMenu{
+    width: 100%;
+    position: relative;
+    top: -25px;
+}
+ul{
+    list-style: none;
+}
+.megaMenu a{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+ul.menuMega > li{
+    list-style: none;
+    float: right;
+    line-height: 30px;
+}
+.megaMenu a:hover{
+    color: green;
+}
+ul.menuChild{
+    width: 890px;
+    min-height: 38px;
+    background-color:white;
+    display: none;
+    position: absolute;
+    left: 295px;
+    z-index: 1;
+    list-style: none;
+    top: 5px;
+}
+ul.menuChild li {
+    list-style: none;
+}
+ul.menuChild li a{
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    list-style: none;
+}
+ul.root > li:hover ul.menuChild{
+    display:block;
+    visibility: visible;
+    list-style: none;
+    transition: 2s;
+}
+.themeleft{
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 43px;
+    top: -6px;
+    left: 10px;
+}
+.circle1{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.khungsandeal{
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+}
+.chusandeal{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chuxemtatca a{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 14px;
+}
+.icofont-flash{
+    font-size:55px;
+    color: yellow;
+    position: absolute;
+    left: 5px;
+}
+.item{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.boxsp{
+    position:relative;
+    width: calc(20% - 10px);
+    height: 336px;
+
+    border: 1px grey solid;
+    border-radius: 10px;
+
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+}
+.anhsp{
+    width: 100%;
+    overflow: hidden;
+}
+.anhsp img{
+    width: 90%;
+    padding-left: 20px;
+}
+.tensp{
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+.tensp a{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: #2e2d2d;
+    font-weight: 200;
+    font-size: 16px;
+}
+.tensp a:hover{
+    color: green;
+}
+.giasp {
+    position: relative;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.giasp strong{
+    font-weight: bold;
+}
+.giasp del{
+    color:#2e2d2d ;
+}
+.danhgia{
+    position: relative;
+    color:#2e2d2d ;
+    top: -37px;
+}
+.ratesaosp a img{
+    position: relative;
+    width: 80px;
+    top: -10px;
+}
+.khunggiamgia{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:#0bdb0b ;
+    position: relative;
+    bottom: 330px;
+    left: 170px;
+}
+.khunggiamgia p{
+    position: absolute;
+    top: -7px;
+    left: 4px;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.khunggphtt{
+    position: relative;
+    width: 1180px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.giaiphaphoptructuyen{
+    position: relative;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a0a0a;
+    padding-top: 15px;
+}
+.chunho{
+    position: relative;
+    height: 50px;
+    float : left;
+    display: inline;
+    top: -38px;
+    left: 600px;
+}
+.chunho a{
+    color:#2e2d2d;
+    
+    font-size: 14px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.chunho a:hover{
+    color: green;
+}
+.chuxemtatca1{
+    position: relative;
+    float: right;
+    height: 50px;
+    top: -21px;
+}
+.chuxemtatca1 a{
+    font-size: 14px;
+    color: #2e2d2d;
+}
+.item2{
+    width: 100%;
+    position: relative;
+    padding-left: 5px;
+    float: left;
+    top: -35px;
+}
+.boxsp2 {
+    position:relative;
+    width: calc(20% - 10px);
+    height: 336px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+}
+.boxsp2 .anhsp{
+    width: 100%;
+    height: 195px;
+    overflow: hidden;
+}
+.boxsp2 .anhsp img{
+    width: 90%;
+    padding-left: 20px;
+}
+.boxsp2 .tensp{
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+.boxsp2 .tensp a{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: #2e2d2d;
+    font-weight: 200;
+    font-size: 16px;
+}
+.boxsp2 .tensp a:hover{
+    color: green;
+}
+.boxsp2 .giasp {
+    position: relative;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxsp2 .giasp strong{
+    font-weight: bold;
+}
+.boxsp2 .giasp del{
+    color:#2e2d2d ;
+}
+.boxsp2 .danhgia{
+    position: relative;
+    color:#2e2d2d ;
+    top: -37px;
+}
+.boxsp2 .ratesaosp a img{
+    position: relative;
+    width: 80px;
+    top: -10px;
+}
+.boxsp2 .khunggiamgia{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:#0bdb0b ;
+    position: relative;
+    bottom: 330px;
+    left: 170px;
+}
+.boxsp2 .khunggiamgia p{
+    position: absolute;
+    top: -7px;
+    left: 4px;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thietbistream{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    clear: both;
+}
+.chuxemtatca2{
+    height: 100%;
+    position: relative;
+    float: right;
+    top: -50px;
+}
+.chuthietbistream{
+    height: 100%;
+    line-height: 50px;
+    color: #0a0a0a;
+    position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.chunho1{
+    height: 100%;
+    position: relative;
+    float: right;
+    top: -50px;
+    margin-right: 10px;
+}
+.chuxemtatca2 a{
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #2e2d2d;
+}
+.chunho1 a{
+    color:#2e2d2d;
+    font-size: 14px;
+    line-height: 50px;
+}
+.item3{
+    position: relative;
+    width: 100%;
+    height:650px;
+    clear: both;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.bannerleft{
+    position: relative;
+    width: calc(40% - 10px);
+    height:100%;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+.boxright{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.righttop{
+    width: 100%;
+    height:50%;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.rightbot{
+    width: 100%;
+    height:50%;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+.boxsprighttop{
+    padding-top: 10px;
+    width: calc(33.33% - 30px);
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.boxsprighttop .anhsp img{
+    width: 100%;
+}
+.boxsprightbot{
+    padding-top: 10px;
+    width: calc(33.33% - 30px);
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.boxsprightbot .anhsp img{
+    width: 100%;
+}
+.boxright .giasp{
+    position: relative;
+    top: 20px;
+}
+.thanhfooter{
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif !important; 
+
+}
+.thanhfooter .boxleft{
+    width: 33.33%;
+    margin-right: 5px;
+    float: left;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: #f9f9f9;
+    font-size: 13px;
+}
+.thanhfooter .boxcenter{
+    width: 33.33%;
+    position: absolute;
+    left:393px ;
+    height: 400px;
+    color: #f9f9f9;
+    padding-left : 10px; ;
+}
+.thanhfooter .boxright1{
+    width: 33.4%;
+    position: absolute;
+    float: left;
+    left:786px;
+    padding-left: 20px;
+}
+.boxleft img{
+    width: 70%;
+}
+.truso{
+    font-size: 11px;
+}
+.apshop{
+    font-weight: 600;
+    font-size: 14px;
+}
+.thanhfooter a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #f9f9f9;
+    font-weight: 300;
+}
+.time{
+    color: #0bdb0b;
+    font-size: 12px;
+    font-weight: 200;
+}
+.boxleft h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.boxcenter h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+.chungnhan1 img{
+    width: 40%;
+}
+.chungnhan2 img{
+    width: 45%;
+    position: absolute;
+    left: 180px;
+    bottom: 32px;
+}
+.form-email{
+    margin-top: 20px;
+    width: 280px;
+    height: 35px;
+    outline: none;
+}
+.button-gui{
+    background-color: #01ff01; 
+    outline: none;
+    width: 50px;
+    height: 35px;
+    position: relative;
+    left: -5px;
+    border: 1px solid gray;
+}
+.boxright1 h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+.map img{
+    width: 80%;
+}
+.copyright{
+    color: #838383;
+    position: relative;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    text-align: center;
+    top: -40px;
+}
+
+
